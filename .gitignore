@@ -86,3 +86,7 @@ Thumbs.db
 .next/server/pages/
 .next/static/chunks/pages/
 .pnp.js
+
+# Ignore personal notes and local config
+LEARNINGS.md
+MCP-TSenderUI-v1.json

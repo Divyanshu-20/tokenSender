@@ -13,7 +13,7 @@ export default function RootLayout(props: { children: ReactNode }) {
     return (
         <html lang="en" className="font-sans">
             <head>
-                <link rel="icon" href="/T-Sender.svg" sizes="any" />
+                <link rel="icon" href="/logo.svg" sizes="any" />
                 <link rel="preconnect" href="https://fonts.googleapis.com" />
                 <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
                 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet" />

@@ -2,8 +2,13 @@
 
 import { ConnectButton } from "@rainbow-me/rainbowkit"
 import { FaGithub, FaReddit } from "react-icons/fa"
+import { useEffect } from "react"
 
 export default function Header() {
+  useEffect(() => {
+    // setFoo(1); // Removed undefined function call
+  }, []);
+
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 px-6 py-3 flex items-center justify-between bg-gray-900/90 backdrop-blur-lg border-b border-white/[0.03] w-full transition-all duration-300 hover:bg-gray-900/95 hover:backdrop-blur-xl">
       <div className="flex items-center space-x-6">
@@ -37,7 +42,7 @@ export default function Header() {
           className="p-1.5 rounded-lg bg-white transition-all duration-200 transform hover:-translate-y-0.5 hover:shadow-lg hover:bg-gray-100"
           aria-label="GitHub"
         >
-          <FaReddit className="h-5 w-5 text-[#FF4500]" />
+          <FaReddit className="h-5 w-5 text-[#ed825c]" />
         </a>
         <div className="h-6 w-px bg-white/10"></div>
         <ConnectButton />
