@@ -1,5 +1,5 @@
 /**
- * Project Name: Token Sender
+ * Project Name: Token Sender/ TxOne
  * Author: Divyanshu
  * Description: A React/Next.js-based ERC20 token airdrop UI for distributing tokens to multiple recipients in a single transaction.
  */
