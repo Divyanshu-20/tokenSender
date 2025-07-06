@@ -10,14 +10,14 @@ export default function Header() {
   }, []);
 
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 px-6 py-3 flex items-center justify-between bg-gray-900/90 backdrop-blur-lg border-b border-white/[0.03] w-full transition-all duration-300 hover:bg-gray-900/95 hover:backdrop-blur-xl">
+    <nav className="fixed top-0 left-0 right-0 z-50 px-6 py-3 flex items-center justify-between bg-gray-900/90 backdrop-blur-lg border-b border-white/[0.03] w-full transition-all duration-300 hover:bg-gray-900/95 hover:backdrop-blur-xl animate-fadeUp">
       <div className="flex items-center space-x-6">
         <a href="/" className="flex items-center space-x-3 group">
-          <div className="p-2.5 rounded-xl bg-gradient-to-br from-blue-500/10 to-blue-600/10 group-hover:from-blue-500/20 group-hover:to-blue-600/20 transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-blue-500/10">
-            <img src="/logo.svg" alt="TSender" width={20} height={20} className="text-white" />
+          <div className="p-2.5 rounded-xl bg-white bg-gradient-to-br from-white to-white group-hover:from-blue-500/10 group-hover:to-blue-600/10 transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-blue-500/10">
+            <img src="/logo.svg" alt="TSender" width={20} height={20} />
           </div>
           <h1 className="font-bold text-xl bg-gradient-to-r from-blue-400 to-blue-300 bg-clip-text text-transparent hidden md:block transition-all duration-300 group-hover:from-blue-300 group-hover:to-blue-200">
-            TSender
+            TxOne 
           </h1>
         </a>
         <a

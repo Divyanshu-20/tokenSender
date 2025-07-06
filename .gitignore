@@ -90,3 +90,15 @@ Thumbs.db
 # Ignore personal notes and local config
 LEARNINGS.md
 MCP-TSenderUI-v1.json
+
+# Playwright
+node_modules/
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+
+
+# Synpress
+# Ignore Synpress specific files
+.cache-synpress/

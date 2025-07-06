@@ -1,13 +1,13 @@
 "use client"
 
-import { AirdropForm } from "../components/AirdropForm";
+import HomeContent from "@/components/HomeContent";
 import { Providers } from "./providers";
 
 export default function Home() {
   return (
     <Providers>
       <div>
-        <AirdropForm />
+        <HomeContent />
       </div>
     </Providers>
   )

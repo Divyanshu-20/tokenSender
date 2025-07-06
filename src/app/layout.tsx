@@ -5,7 +5,7 @@ import Header from "@/components/Header"
 import { Providers } from "./providers"
 
 export const metadata: Metadata = {
-    title: "TSender",
+    title: "TxOne",
     description: "Hyper gas-optimized bulk ERC20 token transfer",
 }
 
